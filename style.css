@@ -1,0 +1,85 @@
+*{
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  box-sizing: border-box;
+}
+body {
+  padding-top: 100px; 
+  background-image: url("https://cms.accuweather.com/wp-content/uploads/2020/02/cropped-summer-789974_1280.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  height: 100vh;
+}
+.first {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.first #search {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 10px;
+  background-color: rgb(157, 215, 71);
+  border: none;
+  color: #000;
+  font-weight: 600;
+  transition: all 0.4s;
+  /* background: linear-gradient(to right, blue green); */
+}
+#search:hover{
+  background-color: greenyellow;
+  color: #000;
+
+}
+.first input {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding: 10px;
+  outline: none;
+  color: #000;
+  font-weight: 600;
+  border: none;
+  background-color: #f5f8fb;
+}
+input:focus{
+  /* outline: 5px solid rgba(128, 128, 128, 0.498); */
+  box-shadow: 0px 3px 20px #f5f8fb;
+}
+#hour{
+  margin: auto;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+       display: flex;
+  align-items: center;
+}
+#hour .item {
+  /* width: 100%; */
+  padding: 16px;
+  border-radius: 6px;
+  border: 1px solid #464b50;
+  background-color: #1f2125;
+  color: white;
+  display: block;
+  align-items: center;
+  cursor: pointer;
+}
+#hour .item .belgi {
+  display: flex;
+  align-items: center;
+}
+#hour .item .item__name {
+  text-align: center;
+  display: inline-block;
+}
+#hour .item .item__namee {
+  display: inline-block;
+  text-align: center;
+}
+
+#div {
+  text-align: center;
+}
